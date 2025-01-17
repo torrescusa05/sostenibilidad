@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+  
+header {
+    background-color: rgb(69, 168, 69);
+    color:white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;  
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+header h3 {
+    font-size: 16px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 32.5% 33% 32.5%;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.caja {
+    padding: 2%;
+    background-color: rgb(226, 226, 226);
+    border: 1px black solid;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja h1 {
+    font-size: 25px;
+    font-weight: 500;    
+}
+
+.caja h4 {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.caja input {
+    font-size: 16px;
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.caja img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.caja p {
+    font-size: 10px;
+}
+
+
